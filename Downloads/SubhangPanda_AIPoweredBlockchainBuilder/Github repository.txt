@@ -1,0 +1,4 @@
+Name: Subhang Panda
+University: Silicon University, Bhubaneswar
+
+Github Repository: https://github.com/Subhang15/Prediction-Market
