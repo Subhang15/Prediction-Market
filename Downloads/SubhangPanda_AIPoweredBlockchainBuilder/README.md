@@ -126,19 +126,19 @@ npm install
 cd ..
 ```
 
-### 2) Compile contracts
+### 3) Compile contracts
 
 ```bash
 npm run compile
 ```
 
-### 3) Start local chain (new terminal)
+### 4) Start local chain (new terminal)
 
 ```bash
 npx hardhat node
 ```
 
-### 4) Deploy contracts
+### 5) Deploy contracts
 
 Create a deploy script (recommended: `scripts/deploy.js`) or use your existing deployment workflow, then run:
 
@@ -146,7 +146,7 @@ Create a deploy script (recommended: `scripts/deploy.js`) or use your existing d
 npx hardhat run scripts/deploy-local.mjs --network localhost
 ```
 
-### 5) Configure frontend env
+### 6) Configure frontend env
 
 In `frontend/.env.local` set:
 
@@ -156,7 +156,7 @@ NEXT_PUBLIC_HARDHAT_RPC_URL=http://127.0.0.1:8545
 NEXT_PUBLIC_SEPOLIA_RPC_URL=https://rpc.sepolia.org
 ```
 
-### 6) Run frontend
+### 7) Run frontend
 
 ```bash
 cd frontend
