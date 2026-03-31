@@ -118,6 +118,14 @@ Market outcome is resolved from a Chainlink feed instead of admin-controlled man
 npm install
 ```
 
+### 2) Install frontend dependencies
+
+```bash
+cd frontend
+npm install
+cd ..
+```
+
 ### 2) Compile contracts
 
 ```bash
@@ -135,7 +143,7 @@ npx hardhat node
 Create a deploy script (recommended: `scripts/deploy.js`) or use your existing deployment workflow, then run:
 
 ```bash
-npx hardhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/deploy-local.mjs --network localhost
 ```
 
 ### 5) Configure frontend env
@@ -152,7 +160,6 @@ NEXT_PUBLIC_SEPOLIA_RPC_URL=https://rpc.sepolia.org
 
 ```bash
 cd frontend
-npm install
 npm run dev
 ```
 
